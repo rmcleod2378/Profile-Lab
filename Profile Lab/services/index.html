@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en" ng-app="ProfileApp">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="/services/app/styles.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet">
+    <title>Profile Lab</title>
+</head>
+<body>
+    
+<ng-view></ng-view>
+<a href="#!/edit">Edit</a>
+<a href="#!/profile">Profile</a>
+
+
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.6.5/angular.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.6.5/angular-route.js"></script>
+    <script src="app.module.js"></script>
+    <script src="app.config.js"></script>
+    <script src="app/editprofile/editprofile.component.js"></script>
+    <script src="app/profile/profile.component.js"></script>
+    <script src="app.service.js"></script>
+</body>
+</html>
